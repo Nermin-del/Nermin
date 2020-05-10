@@ -1,5 +1,4 @@
-<!--/ Jag hämtade en startmall med hjälp av utropstecknet.-->
-
+<!--/ Jag hämtade en startmall med hjälp av !-kommandot-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Här hämtade jag en css fil som heter "main.css"-->
     <link rel = "stylesheet" href = "src/style/main.css">
-    
 </head>
 <!-- Jag satte in en div här sedan som är en kodblock. Genom att skriva div "wrapper" så binder jag ihop hemsidan som blir en form av ett kodblock-->
 <div class = "wrapper">
@@ -29,22 +27,18 @@
     <!-- Jag har en div med ett nav som står för navigeringsfält.
     Jag har en href som hämtar mina html filer.-->
   <div class = "main-content">
-      <h3>hem</h3>
-    
+      <h3>Hem</h3>
+          <!-- här lade jag till section för att wrappa ihop relaterade elementer så man kan binda ihop koderna.
+    här lade jag även till article som texthost så att man kunde skriva information om kulturhuset-->
       <section>
         <article>
             <p>Hej och välkommen till kulturhusets hemsida</p>
         </article>
     </section>
-
   </div>
-    <!-- här lade jag till section för att wrappa ihop relaterade elementer så man kan binda ihop koderna.
-    här lade jag även till article som texthost så att man kunde skriva information om kulturhuset-->
-
-    
     <!-- här lade jag en footer med två paragraftaggar. 
     En med mitt namn och namnet på kursen
-    och en med id clockwork där jag visar klockan från javascript-->
+    och en med id "clockWork" där jag visar klockan från javascript-->
     <footer>
         <p>Nermin Festa, Webbutveckling 1 infokomp</p>
         <p id = "clockWork" class="clock"></p>
